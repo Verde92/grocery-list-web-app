@@ -1,0 +1,97 @@
+body {
+  font-family: "Calistoga", cursive;
+  background-color: #88cafe;
+  padding: 0;
+  margin: 0;
+}
+/* button test - change color on click. Can use for darkmode 
+.test {
+  background-color: black;
+}
+*/
+
+.header {
+  padding: 0;
+  margin: 0 5px;
+  text-align: center;
+    background-color: #D6EDFF ;
+}
+#list {
+  background-color: #fff04e;
+  display: grid;
+  grid-template-areas: 1fr 1fr;
+  text-align: left;
+  border: 0.1px solid brown;
+  border-top: 25px solid;
+  margin: 30px auto;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 5px;
+  width: 400px;
+}
+/*
+.topbox {
+  border: 0.1px solid black;
+  background-color: brown;
+  color: brown;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 5px;
+}
+*/
+#list {
+  
+}
+.checkbox {
+  width: 120px;
+}
+textarea {
+  background-color: #fff04e;
+  font-family: "Calistoga", cursive;
+  opacity: 0.5;
+  border: none;
+  height: 80px;
+  width: 180px;
+}
+.notes {
+  width: 50px;
+  max-width: 120px;
+  align-content: left;
+}
+/* trying to align the buttons in the middle, suggest better way */
+.item-modifier {
+  display: flex;
+  justify-content: space-evenly;
+  width: 280px;
+  margin: 0 auto;
+}
+.plus, .minus {
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+}
+.plus {
+  background-color: green;
+}
+.minus {
+  background-color: red;
+}
+.instruction {
+  text-align: center;
+}
+footer {
+  font-style: italic;
+  font-size: 0.65em;
+  text-align: center;
+  position: relative;
+  top: 65px;
+}
+@media screen and (min-width: 600px) {
+  .header {
+    text-align: center;
+  }.list {
+    width: 400px;
+    margin: 30px auto;
+  }
+}
